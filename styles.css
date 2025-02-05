@@ -1,0 +1,36 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+.elem{
+  display: flex;
+  padding: 3px;
+  border: 2px solid;
+  margin: 3px;
+  border-radius:10px 10px;
+  justify-content: space-around;
+}
+.content{
+
+  border-radius: 10px 10px;
+  display: inline-flex;
+  flex-direction: column;
+  width: 40%;
+}
+.total{
+  font-size: 200%;
+  font-weight: 600;
+  border-bottom: double #000;
+  opacity: 0.7;
+}
+.checked{
+  border: 2px solid blue;
+}
+@media (max-width: 900px ) {
+  .content{
+    width: 60%;
+  }
+}
